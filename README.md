@@ -15,5 +15,7 @@ ________________________________________________________________________________
 * Build Dockerfile and push image to GCR:
 1.  docker build . -t gcr.io/zahra-project41853/python-img:v3.0
 2.  docker push gcr.io/zahra-project41853/python-img:v3.0
+![Screenshot from 2023-02-21 20-29-19](https://user-images.githubusercontent.com/78254667/220429621-211f3ee5-f6bf-4d3b-8562-aa0fc057bc9f.png)
+![Screenshot from 2023-02-21 20-30-37](https://user-images.githubusercontent.com/78254667/220429642-df54f65d-3189-4c49-ad31-f04198b751c7.png)
 
 
