@@ -12,3 +12,8 @@ ________________________________________________________________________________
 
 ![Screenshot from 2023-02-21 20-20-07](https://user-images.githubusercontent.com/78254667/220427719-96fd6344-024e-49a5-9018-5a3c53f9c4bd.png)
 
+* Build Dockerfile and push image to GCR:
+1.  docker build . -t gcr.io/zahra-project41853/python-img:v3.0
+2.  docker push gcr.io/zahra-project41853/python-img:v3.0
+
+
