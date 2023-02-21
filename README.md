@@ -18,4 +18,11 @@ ________________________________________________________________________________
 ![Screenshot from 2023-02-21 20-29-19](https://user-images.githubusercontent.com/78254667/220429621-211f3ee5-f6bf-4d3b-8562-aa0fc057bc9f.png)
 ![Screenshot from 2023-02-21 20-30-37](https://user-images.githubusercontent.com/78254667/220429642-df54f65d-3189-4c49-ad31-f04198b751c7.png)
 
+* In console_cloud_google go to Compute Engine choose vm instance & click on ssh then write this command:
+1. sudo apt update
+2. sudo apt-get install kubectl
+3. gcloud auth login
+4. sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
+5. gcloud container clusters get-credentials private-cluster --zone us-central1-a --project zahra-project41853
+
 
