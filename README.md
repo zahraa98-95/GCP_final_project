@@ -27,5 +27,8 @@ ________________________________________________________________________________
 ![WhatsApp Image 2023-02-21 at 8 41 12 PM](https://user-images.githubusercontent.com/78254667/220431572-896ce705-e319-47a2-957d-1f31d768d72d.jpeg)
 
 * In console_cloud_google go to Kubernetes Engine & click on Services & Ingress:
+![Screenshot from 2023-02-21 17-18-39](https://user-images.githubusercontent.com/78254667/220432819-367f6021-b696-473f-8721-f35367a8b0c6.png)
+
+* My Final Output:
 
 
