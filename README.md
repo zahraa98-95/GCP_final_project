@@ -24,5 +24,8 @@ ________________________________________________________________________________
 3. gcloud auth login
 4. sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
 5. gcloud container clusters get-credentials private-cluster --zone us-central1-a --project zahra-project41853
+![WhatsApp Image 2023-02-21 at 8 41 12 PM](https://user-images.githubusercontent.com/78254667/220431572-896ce705-e319-47a2-957d-1f31d768d72d.jpeg)
+
+* In console_cloud_google go to Kubernetes Engine & click on Services & Ingress:
 
 
