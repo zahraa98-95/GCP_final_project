@@ -10,3 +10,5 @@ ________________________________________________________________________________
 1. terraform init
 2. terrafrom apply
 
+![Screenshot from 2023-02-21 20-20-07](https://user-images.githubusercontent.com/78254667/220427719-96fd6344-024e-49a5-9018-5a3c53f9c4bd.png)
+
