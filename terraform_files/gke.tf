@@ -1,4 +1,4 @@
-
+# my private cluster
 resource "google_container_cluster" "private-cluster" {
   name                     = "private-cluster"
   location                 = "us-central1-a"
@@ -42,7 +42,7 @@ resource "google_container_cluster" "private-cluster" {
   
 }
 
-
+# my service account
 
 resource "google_service_account" "kubernetes" {
   account_id = "kubernetes"

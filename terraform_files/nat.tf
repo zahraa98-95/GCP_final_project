@@ -1,4 +1,4 @@
-#Nat getway
+#my nat getway
 
 resource "google_compute_router_nat" "nat" {
   name   = "nat"

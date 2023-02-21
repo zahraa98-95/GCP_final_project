@@ -1,4 +1,4 @@
-# my subnets
+# my restricted-subnet
 
 resource "google_compute_subnetwork" "restricted-subnet" {
   name                     = "restricted-subnet"
@@ -17,7 +17,7 @@ resource "google_compute_subnetwork" "restricted-subnet" {
   }
 }
 
-
+# my management-subnet
 resource "google_compute_subnetwork" "management-subnet" {
   name          = "management-subnet"
   ip_cidr_range = "10.1.0.0/18"

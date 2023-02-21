@@ -1,8 +1,9 @@
-
+# my private vm (instance)
 resource "google_compute_instance" "private-instance" {
   name         = "private-instance"
-  machine_type = "e2-small"
   zone         = "us-central1-a"
+  machine_type = "e2-small"
+  
   
 
    boot_disk {

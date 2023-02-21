@@ -1,3 +1,4 @@
+# my bucket gcp-bucket-1449
 resource "google_storage_bucket" "remote-bucket" {
     name = "gcp-bucket-1449"
     force_destroy = false

@@ -1,3 +1,5 @@
+# my firewall-------> resources
+
 resource "google_compute_firewall" "ssh" {
   name    = "ssh"
   network = google_compute_network.myvpc.name
