@@ -32,20 +32,5 @@ ________________________________________________________________________________
 * My Final Output:
 ![Screenshot from 2023-02-21 17-11-02](https://user-images.githubusercontent.com/78254667/220433114-721e2a62-96b4-4dc0-b8f9-b52b4d19de89.png)
 
-- connect to the cluster :
-gcloud compute ssh --project=zahra-project41853 --zone=us-central1-a private-instance
-
-- get clone my repo:
-git clone https://github.com/zahraa98-95/final_project.git
-
-- create yaml_files from helm_files :
-kubectl apply -f ./final_project/helm_files/templates
-
--get your external ip (service): 
-kubectl get svc -n jenkins
-- get password by used:
-1. kubectl exec --stdin --tty jenkins-fd5fdf49f-6qgr2 -n jenkins -- /bin/bash
-2. cat /var/jenkins_home/secrets/initialAdminPassword
-
 
 
